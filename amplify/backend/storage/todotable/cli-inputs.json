@@ -1,0 +1,14 @@
+{
+  "resourceName": "todotable",
+  "tableName": "todotable",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "todo",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
