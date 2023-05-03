@@ -1,7 +1,11 @@
 <script lang="ts">
   import { ToDo } from "./ToDo";
   import ToDoItem from "./ToDoItem.svelte";
-
+  //   {
+  //     "id": "2556a658-109e-46e3-9168-1d8f8c9ccf14",
+  //     "done": false,
+  //     "todo" : "this is a test todo"
+  // }
   let todos: ToDo[] = [];
 
   let newTodo: string;
