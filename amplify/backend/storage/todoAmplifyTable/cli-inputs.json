@@ -1,0 +1,14 @@
+{
+  "resourceName": "todoAmplifyTable",
+  "tableName": "todoAmplifyTable",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "todo",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

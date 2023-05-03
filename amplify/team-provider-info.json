@@ -10,6 +10,20 @@
       "StackName": "amplify-todoamplify-dev-153847",
       "StackId": "arn:aws:cloudformation:ap-south-1:813909521874:stack/amplify-todoamplify-dev-153847/7ef36870-e99a-11ed-acde-023ce5bb8104",
       "AmplifyAppId": "d1z2sj9smp3jyj"
+    },
+    "categories": {
+      "function": {
+        "todoAmplifyLambda": {
+          "deploymentBucketName": "amplify-todoamplify-dev-153847-deployment",
+          "s3Key": "amplify-builds/todoAmplifyLambda-3776387073646c573636-build.zip"
+        }
+      },
+      "storage": {
+        "todoAmplifyTable": {}
+      },
+      "api": {
+        "todoAmplifyApi": {}
+      }
     }
   }
 }
